@@ -3,7 +3,8 @@
 let mom = document.getElementById('mom');
 let child = document.getElementById('child');
 let children = document.getElementById('children');
-//локально работает, между прочим, и без строчек выше
+let holidays = document.getElementById('holidays');
+//локально работает, между прочим, и без строчек выше (возможно из-за совпадения переменной с id)
 
 mom.addEventListener('click', function() {
     //window.location = 'mom/mom.html';
@@ -18,4 +19,9 @@ child.addEventListener('click', function() {
 children.addEventListener('click', function() {
     //window.location = 'children/children.html';
     window.open('children/children.html', '_blank');
+})
+
+holidays.addEventListener('click', function() {
+    //window.location = 'holidays/holidays.html';
+    window.open('holidays/holidays.html', '_blank');
 })
