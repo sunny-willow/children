@@ -5,13 +5,13 @@ let film = document.getElementById('film');
 let recipes = document.getElementById('recipes');
 
 sport.addEventListener('click', function() {
-    window.open('sport/sport.html', '_blank');
+    window.location = 'sport/sport.html';
 })
 
 film.addEventListener('click', function() {
-    window.open('film/film.html', '_blank');
+    window.location = 'film/film.html';
 })
 
 recipes.addEventListener('click', function() {
-    window.open('recipes/recipes.html', '_blank');
+    window.location = 'recipes/recipes.html';
 })

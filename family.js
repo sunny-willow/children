@@ -7,21 +7,21 @@ let holidays = document.getElementById('holidays');
 //локально работает, между прочим, и без строчек выше (возможно из-за совпадения переменной с id)
 
 mom.addEventListener('click', function() {
-    //window.location = 'mom/mom.html';
-    window.open('mom/mom.html', '_blank');
+    window.location = 'mom/mom.html';
+    //window.open('mom/mom.html', '_blank');
 })
 
 child.addEventListener('click', function() {
-    //window.location = 'child/child.html';
-    window.open('child/child.html', '_blank');
+    window.location = 'child/child.html';
+    //window.open('child/child.html', '_blank');
 })
 
 children.addEventListener('click', function() {
-    //window.location = 'children/children.html';
-    window.open('children/children.html', '_blank');
+    window.location = 'children/children.html';
+    //window.open('children/children.html', '_blank');
 })
 
 holidays.addEventListener('click', function() {
-    //window.location = 'holidays/holidays.html';
-    window.open('holidays/holidays.html', '_blank');
+    window.location = 'holidays/holidays.html';
+    //window.open('holidays/holidays.html', '_blank');
 })
